@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?k5p3c5');
-  src:  url('fonts/icomoon.eot?k5p3c5#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?k5p3c5') format('truetype'),
-    url('fonts/icomoon.woff?k5p3c5') format('woff'),
-    url('fonts/icomoon.svg?k5p3c5#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?7u23dh');
+  src:  url('fonts/icomoon.eot?7u23dh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7u23dh') format('truetype'),
+    url('fonts/icomoon.woff?7u23dh') format('woff'),
+    url('fonts/icomoon.svg?7u23dh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,66 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow_down:before {
+  content: "\e900";
+}
+.icon-arrow_left:before {
+  content: "\e908";
+}
+.icon-arrow_right:before {
+  content: "\e924";
+}
+.icon-notification:before {
+  content: "\e925";
+}
+.icon-Camera:before {
+  content: "\e926";
+}
+.icon-occupation:before {
+  content: "\e927";
+}
+.icon-phone:before {
+  content: "\e928";
+}
+.icon-add_photo:before {
+  content: "\e929";
+  color: #dde2eb;
+}
+.icon-checkbox_selected .path1:before {
+  content: "\e92a";
+  color: rgb(16, 146, 225);
+}
+.icon-checkbox_selected .path2:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-email:before {
+  content: "\e92c";
+}
+.icon-close:before {
+  content: "\e92d";
+}
+.icon-zibble:before {
+  content: "\e92e";
+  color: #1da1f2;
+}
+.icon-click:before {
+  content: "\e92f";
+  color: #fff;
+}
+.icon-password_white:before {
+  content: "\e930";
+  color: #fff;
+}
+.icon-shield_white:before {
+  content: "\e931";
+  color: #fff;
+}
+.icon-Star:before {
+  content: "\e932";
+  color: #fff;
+}
 .icon-all_in_one_platform:before {
   content: "\e90c";
   color: #fff;
@@ -68,6 +128,10 @@
   content: "\e919";
   color: #1da1f2;
 }
+.icon-Proprietary:before {
+  content: "\e933";
+  color: #1da1f2;
+}
 .icon-check:before {
   content: "\e91a";
   color: #1da1f2;
@@ -103,10 +167,6 @@
   content: "\e922";
   color: #1da1f2;
 }
-.icon-click:before {
-  content: "\e900";
-  color: #1da1f2;
-}
 .icon-left_active:before {
   content: "\e901";
   color: #1da1f2;
@@ -125,10 +185,6 @@
 }
 .icon-iot:before {
   content: "\e907";
-  color: #1da1f2;
-}
-.icon-landlord:before {
-  content: "\e908";
   color: #1da1f2;
 }
 .icon-megaphone:before {
