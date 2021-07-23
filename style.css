@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ef2oec');
-  src:  url('fonts/icomoon.eot?ef2oec#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ef2oec') format('truetype'),
-    url('fonts/icomoon.woff?ef2oec') format('woff'),
-    url('fonts/icomoon.svg?ef2oec#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?dpgsiq');
+  src:  url('fonts/icomoon.eot?dpgsiq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dpgsiq') format('truetype'),
+    url('fonts/icomoon.woff?dpgsiq') format('woff'),
+    url('fonts/icomoon.svg?dpgsiq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,8 +25,106 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Vector-Stroke:before {
+.icon-landlord_hand:before {
+  content: "\e912";
+  color: #1da1f2;
+}
+.icon-white_mobile:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon-edit:before {
+  content: "\e903";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-delete:before {
+  content: "\e901";
+}
+.icon-camera:before {
   content: "\e900";
+}
+.icon-ai:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-checkbox_unchecked:before {
+  content: "\e925";
+  color: #dce1e9;
+}
+.icon-radio_selected-1:before {
+  content: "\e928";
+  color: #1da1f2;
+}
+.icon-radio_unselected:before {
+  content: "\e929";
+  color: #b2bace;
+}
+.icon-red_close .path1:before {
+  content: "\e92c";
+  color: rgb(255, 237, 237);
+}
+.icon-red_close .path2:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 75, 85);
+}
+.icon-red_close .path3:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(255, 75, 85);
+}
+.icon-upload:before {
+  content: "\e934";
+  color: #1da1f2;
+}
+.icon-caret_down_white:before {
+  content: "\e935";
+  color: #fff;
+}
+.icon-caret_down:before {
+  content: "\e936";
+  color: #1da1f2;
+}
+.icon-close:before {
+  content: "\e937";
+  color: #e2e2e2;
+}
+.icon-form_email:before {
+  content: "\e938";
+  color: #1da1f2;
+}
+.icon-form_user:before {
+  content: "\e939";
+  color: #1da1f2;
+}
+.icon-alert:before {
+  content: "\e93a";
+  color: #ff4b55;
+}
+.icon-arrow_lefT:before {
+  content: "\e93b";
+  color: #1da1f2;
+}
+.icon-arrow_right:before {
+  content: "\e93c";
+  color: #fff;
+}
+.icon-location:before {
+  content: "\e90f";
+  color: #1da1f2;
+}
+.icon-notification:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-user:before {
+  content: "\e924";
+  color: #dde2eb;
+}
+.icon-Vector-Stroke:before {
+  content: "\e905";
   color: #fff;
 }
 .icon-checkbox_selected .path1:before {
@@ -58,16 +156,8 @@
   content: "\e932";
   color: #fff;
 }
-.icon-all_in_one_platform:before {
-  content: "\e90c";
-  color: #fff;
-}
 .icon-Heart:before {
   content: "\e911";
-  color: #fff;
-}
-.icon-passionate:before {
-  content: "\e912";
   color: #fff;
 }
 .icon-facebook:before {
@@ -102,10 +192,6 @@
   content: "\e919";
   color: #1da1f2;
 }
-.icon-Proprietary:before {
-  content: "\e933";
-  color: #1da1f2;
-}
 .icon-check:before {
   content: "\e91a";
   color: #1da1f2;
@@ -126,9 +212,6 @@
   content: "\e91e";
   color: #1da1f2;
 }
-.icon-Profile:before {
-  content: "\e91f";
-}
 .icon-property_in_3d:before {
   content: "\e920";
   color: #1da1f2;
@@ -141,36 +224,28 @@
   content: "\e922";
   color: #1da1f2;
 }
-.icon-left_active:before {
-  content: "\e901";
-  color: #1da1f2;
-}
-.icon-right-active:before {
-  content: "\e902";
-  color: #1da1f2;
-}
 .icon-d:before {
-  content: "\e905";
-  color: #1da1f2;
-}
-.icon-home:before {
   content: "\e906";
   color: #1da1f2;
 }
-.icon-iot:before {
+.icon-home:before {
   content: "\e907";
   color: #1da1f2;
 }
-.icon-megaphone:before {
+.icon-iot:before {
   content: "\e909";
   color: #1da1f2;
 }
-.icon-mobile:before {
+.icon-megaphone:before {
   content: "\e90a";
   color: #1da1f2;
 }
-.icon-password:before {
+.icon-mobile:before {
   content: "\e90b";
+  color: #1da1f2;
+}
+.icon-password:before {
+  content: "\e90c";
   color: #1da1f2;
 }
 .icon-shield:before {
@@ -181,19 +256,7 @@
   content: "\e90e";
   color: #1da1f2;
 }
-.icon-location:before {
-  content: "\e910";
-  color: #78889f;
-}
 .icon-Search:before {
   content: "\e923";
   color: #78889f;
-}
-.icon-left-inactive:before {
-  content: "\e903";
-  color: #dce1e9;
-}
-.icon-right-inactive:before {
-  content: "\e904";
-  color: #dce1e9;
 }
