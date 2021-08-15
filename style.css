@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?dpgsiq');
-  src:  url('fonts/icomoon.eot?dpgsiq#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?dpgsiq') format('truetype'),
-    url('fonts/icomoon.woff?dpgsiq') format('woff'),
-    url('fonts/icomoon.svg?dpgsiq#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?6is7mj');
+  src:  url('fonts/icomoon.eot?6is7mj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6is7mj') format('truetype'),
+    url('fonts/icomoon.woff?6is7mj') format('woff'),
+    url('fonts/icomoon.svg?6is7mj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,45 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-profile_outline:before {
+  content: "\e93f";
+  color: #78889f;
+}
+.icon-building:before {
+  content: "\e940";
+  color: #1da1f2;
+}
+.icon-filter:before {
+  content: "\e941";
+  color: #fff;
+}
+.icon-home_outline:before {
+  content: "\e942";
+  color: #78889f;
+}
+.icon-lock:before {
+  content: "\e943";
+  color: #78889f;
+}
+.icon-logout:before {
+  content: "\e944";
+  color: #78889f;
+}
+.icon-plus:before {
+  content: "\e93e";
+  color: #fff;
+}
+.icon-pound:before {
+  content: "\e93d";
+}
+.icon-ataachment:before {
+  content: "\e926";
+  color: #1da1f2;
+}
+.icon-empty_issue:before {
+  content: "\e927";
+  color: #acde8d;
+}
 .icon-landlord_hand:before {
   content: "\e912";
   color: #1da1f2;
