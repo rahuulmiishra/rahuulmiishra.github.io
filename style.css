@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?z9l885');
-  src:  url('fonts/icomoon.eot?z9l885#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?z9l885') format('truetype'),
-    url('fonts/icomoon.woff?z9l885') format('woff'),
-    url('fonts/icomoon.svg?z9l885#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?g62byv');
+  src:  url('fonts/icomoon.eot?g62byv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g62byv') format('truetype'),
+    url('fonts/icomoon.woff?g62byv') format('woff'),
+    url('fonts/icomoon.svg?g62byv#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,85 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-carbon:before {
+  content: "\e957";
+}
+.icon-balcony:before {
+  content: "\e958";
+}
+.icon-desk:before {
+  content: "\e959";
+}
+.icon-patio:before {
+  content: "\e95a";
+}
+.icon-smoke-alarm:before {
+  content: "\e95b";
+}
+.icon-tv:before {
+  content: "\e95c";
+}
+.icon-concierge:before {
+  content: "\e95d";
+}
+.icon-lift:before {
+  content: "\e95e";
+}
+.icon-washing:before {
+  content: "\e949";
+  color: #ff9770;
+}
+.icon-wifi:before {
+  content: "\e94a";
+  color: #ff9770;
+}
+.icon-dishwasher:before {
+  content: "\e94b";
+  color: #ff9770;
+}
+.icon-drier:before {
+  content: "\e94c";
+  color: #ff9770;
+}
+.icon-road:before {
+  content: "\e94d";
+  color: #ff9770;
+}
+.icon-smoking:before {
+  content: "\e94e";
+  color: #ff9770;
+}
+.icon-pets:before {
+  content: "\e94f";
+  color: #ff9770;
+}
+.icon-furnished:before {
+  content: "\e950";
+  color: #ff9770;
+}
+.icon-whatsapp:before {
+  content: "\e951";
+  color: #fff;
+}
+.icon-share:before {
+  content: "\e952";
+  color: #fff;
+}
+.icon-messenger:before {
+  content: "\e953";
+  color: #fff;
+}
+.icon-email:before {
+  content: "\e954";
+  color: #fff;
+}
+.icon-copy-link:before {
+  content: "\e955";
+  color: #fff;
+}
+.icon-d-tour:before {
+  content: "\e956";
+}
 .icon-slider_left:before {
   content: "\e945";
   color: #fff;
